@@ -1,0 +1,10 @@
+<h2>文章列表</h2>
+<ul>
+  {{#each posts}}
+  <li>
+    <a href="/post/{{id}}">{{title}}</a>
+  </li>
+  {{else}}
+  <li>目前沒有文章</li>
+  {{/each}}
+</ul>
